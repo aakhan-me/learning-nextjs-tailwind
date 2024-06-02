@@ -6,7 +6,8 @@ import Intro from "@/components/intro";
 import SkillOutline from "@/components/skill-outline";
 import { Separator } from "@/components/ui/separator";
 import WorkShowcase from "@/components/work-showcase";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 import {
   Project,
@@ -114,6 +115,7 @@ export default function Home() {
         </div>
       </div>
       <Footer />
+      <Analytics/>
       <SpeedInsights/>
     </div>
   );
