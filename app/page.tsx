@@ -49,6 +49,12 @@ export default function Home() {
                 </h3>
                 <p className="text-xs text-muted-foreground">Location</p>
               </div>
+              <div className="space-y-1">
+                <h3 className="font-medium leading-none">
+                  {aboutYou.phone}
+                </h3>
+                <p className="text-xs text-muted-foreground">Whatsapp / Phone</p>
+              </div>
             </div>
             <div>
               <Separator />

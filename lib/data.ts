@@ -303,6 +303,7 @@ export const workExperiences: WorkExperience[] = [
 
 export const aboutYou = {
   name: "Awais Ahmed Khan",
+  phone: "+923335213118",
   description:
     "👋 Hi, I’m @aakhan-me 👀 I’m interested in Learning and development 🌱 I’m currently learning python and reactjs 💞️ I’m looking to collaborate on open source projects",
   yearsOfExperience: "10 years",
